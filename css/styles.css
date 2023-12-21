@@ -232,12 +232,11 @@ mark, .mark {
   background-color: var(--bs-highlight-bg);
 }
 
-sub,
-sup {
-  position: relative;
-  font-size: 0.75em;
-  line-height: 0;
-  vertical-align: baseline;
+sub{
+position: relative;
+font-size: 0.75em;
+line-height: 0;
+vertical-align: baseline;
 }
 
 sub {
