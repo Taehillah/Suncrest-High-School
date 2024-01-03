@@ -186,10 +186,11 @@ border: solid 2px #0000;
 }
 
 .HomeIconClassPix{
-  width: 20%;
+  width: 15%;
 border-radius: 300px;
 border: solid 2px #0000;
 flex: content;
+margin-inline: 40px;
 }
 
 abbr[title] {
