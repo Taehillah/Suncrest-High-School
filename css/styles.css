@@ -171,6 +171,16 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.sportsIcon {
+width: 60px;
+height: 60px;
+}
+#sportsIcon{
+  height: 30px;
+width: 20px;
+}
+.newSportClass{
+}
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
