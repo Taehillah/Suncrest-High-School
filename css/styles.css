@@ -192,7 +192,10 @@ border: solid 2px #0000;
 flex: content;
 margin-inline: 40px;
 }
-
+.HomeTextClassPix{
+  width:80px;
+  flex: content;
+}
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
