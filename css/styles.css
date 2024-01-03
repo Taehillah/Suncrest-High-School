@@ -185,6 +185,13 @@ border-radius: 10px;
 border: solid 2px #0000;
 }
 
+.HomeIconClassPix{
+  width: 20%;
+border-radius: 300px;
+border: solid 2px #0000;
+flex: content;
+}
+
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
