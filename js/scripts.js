@@ -6,4 +6,7 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
-document.getElementById('#blackText').style.display = 'none';
+document.getElementById("HomeIconPixSport").addEventListener("mouseover", function moved() {
+    document.getElementById("HomeIconPixSport").style.backgroundImage = "url(images/rcl.jpg)"
+});
+moved();
