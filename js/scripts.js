@@ -9,7 +9,12 @@
 document.getElementById("HomeIconPixSport").addEventListener("mouseover", function moved() {
     document.getElementById("HomeIconPixSport").style.backgroundColor = "rgba(255, 255, 255, 0.8)";
     document.getElementById("HomeIconPixSport").style.padding = "10px";
-
-
+    
+   
 });
+
+document.getElementById("HomeIconPixSport").addEventListener('mouseleave', function movedout() {
+    document.getElementById("HomeIconPixSport").style.backgroundColor = "rgba(255, 255, 255, 0.8)";
+    document.getElementById("HomeIconPixSport").style.padding = "0px";})
+movedout();
 moved();
