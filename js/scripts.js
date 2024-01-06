@@ -23,4 +23,8 @@ document.getElementById("cultureIcon").addEventListener("click", function cultur
     window.location.href= "RCL.html";
  });
 
- sported(); cultured();academicsed();rcled()
+ document.getElementByClass("headerLogo").addEventListener("click", function toHome() {
+    window.location.href= "index.html";
+ });
+
+ sported(); cultured();academicsed();rcled(); toHome();
