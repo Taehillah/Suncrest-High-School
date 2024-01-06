@@ -225,27 +225,27 @@ margin-inline: 40px;
 
 /* Just checking */
 
-.picture-container {
-  display: flex;
-}
-
-.rounded-picture {
-  border-radius: 50%;
-  margin-right: 10px; 
-  width: 100px;
+.cards {
+  width: 150px;
+  height: 150px;
   position: relative;
+  display: inline-block;
+  border-radius: 100px;
 }
-
-.rounded-picture:hover::after {
-  content: attr(alt);
+.cards .img-top {
+  width: 150px;
+  height: 150px; 
+  display: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 5px;
-  border-radius: 5px;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border-radius: 100px;
+}
+.cards:hover .img-top {
+  display: inline;
+
+
 }
 
 
