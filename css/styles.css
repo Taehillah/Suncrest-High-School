@@ -171,6 +171,11 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+.smallImage{
+  width:50px;
+  height:50px;
+}
 .sportsIcon {
 width: 60px;
 height: 60px;
@@ -192,6 +197,7 @@ border: solid 2px #0000;
 flex: content;
 margin-inline: 40px;
 }
+
 .HomeTextClassPix{
   width:80px;
   flex: content;
