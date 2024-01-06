@@ -185,7 +185,7 @@ height: 60px;
 width: 20px;
 }
 .HomeIconClass{
-  width: 95%;
+width: 95%;
 border-radius: 10px;
 border: solid 2px #0000;
 }
@@ -202,6 +202,82 @@ margin-inline: 40px;
   width:80px;
   flex: content;
 }
+.text-on-hover::before {
+  content: attr(alt); /* Display alt text as pseudo-element content */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Add a background color */
+  padding: 10px;
+  display: none;
+}
+
+.HomeIconClassPix:hover .text-on-hover::before {
+  display: block;
+}
+.widthOf184{
+  width: 84px;
+}
+
+
+
+
+/* Just checking */
+
+.picture-container {
+  display: flex;
+}
+
+.rounded-picture {
+  border-radius: 50%;
+  margin-right: 10px; 
+  width: 100px;
+  position: relative;
+}
+
+.rounded-picture:hover::after {
+  content: attr(alt);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
