@@ -14,6 +14,13 @@ document.getElementById("sportIcon").addEventListener("click", function sported(
 document.getElementById("cultureIcon").addEventListener("click", function cultured() {
     window.location.href= "blog-home.html";
  });
- cultured();
 
- sported();
+ document.getElementById("academicsIcon").addEventListener("click", function academicsed() {
+    window.location.href= "blog-post.html";
+ });
+ 
+ document.getElementById("rclIcon").addEventListener("click", function rcled() {
+    window.location.href= "RCL.html";
+ });
+
+ sported(); cultured();academicsed();rcled()
