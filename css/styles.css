@@ -228,8 +228,22 @@ margin-inline: 40px;
   display: inline;
 text-align: center;
 }
+/**Home Table  Style*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
 
 
