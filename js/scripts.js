@@ -6,16 +6,14 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
-document.getElementById("HomeIconPixSport").addEventListener("mouseover", function moved() {
-    document.getElementById("HomeIconPixSport").style.backgroundColor = "rgba(255, 255, 255, 0.8)";
-    document.getElementById("HomeIconPixSport").style.padding = "10px";
-    document.getElementById("HomeIconPixSport").style.background=url("images/sportIcon2.jpg");
-
-   
+document.getElementById("sportIcon").addEventListener("click", function sported() {
+   window.location.href= "Sport.html";
 });
 
-document.getElementById("HomeIconPixSport").addEventListener('mouseleave', function movedout() {
-    document.getElementById("HomeIconPixSport").style.backgroundColor = "rgba(255, 255, 255, 0.8)";
-    document.getElementById("HomeIconPixSport").style.padding = "0px";})
-movedout();
-moved();
+
+document.getElementById("cultureIcon").addEventListener("click", function cultured() {
+    window.location.href= "blog-home.html";
+ });
+ cultured();
+
+ sported();

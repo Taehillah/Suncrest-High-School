@@ -198,27 +198,7 @@ flex: content;
 margin-inline: 40px;
 }
 
-.HomeTextClassPix{
-  width:80px;
-  flex: content;
-}
-.text-on-hover::before {
-  content: attr(alt); /* Display alt text as pseudo-element content */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.8); /* Add a background color */
-  padding: 10px;
-  display: none;
-}
 
-.HomeIconClassPix:hover .text-on-hover::before {
-  display: block;
-}
-.widthOf184{
-  width: 84px;
-}
 
 
 
@@ -230,6 +210,7 @@ margin-inline: 40px;
   height: 150px;
   position: relative;
   display: inline-block;
+  margin-left: 50px;
   border-radius: 100px;
 }
 .cards .img-top {
@@ -241,11 +222,11 @@ margin-inline: 40px;
   left: 0;
   z-index: 99;
   border-radius: 100px;
+  
 }
 .cards:hover .img-top {
   display: inline;
-
-
+text-align: center;
 }
 
 
