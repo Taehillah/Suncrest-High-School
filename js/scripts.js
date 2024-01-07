@@ -12,11 +12,11 @@ document.getElementById("sportIcon").addEventListener("click", function sported(
 
 
 document.getElementById("cultureIcon").addEventListener("click", function cultured() {
-    window.location.href= "blog-home.html";
+    window.location.href= "blog.html";
  });
 
  document.getElementById("academicsIcon").addEventListener("click", function academicsed() {
-    window.location.href= "blog-post.html";
+    window.location.href= "Academics.html";
  });
  
  document.getElementById("rclIcon").addEventListener("click", function rcled() {
