@@ -27,4 +27,8 @@ document.getElementById("cultureIcon").addEventListener("click", function cultur
     window.location.href= "index.html";
  });
 
- sported(); cultured();academicsed();rcled(); toHome();
+document.getElementById("fbIcon").addEventListener("click", function referToFB(){
+   window.location.replace= "https://www.facebook.com/p/Suncrest-Sunspot-100057459520420/"
+});
+
+ sported(); cultured();academicsed();rcled(); toHome(); referToFB();rToFB();
