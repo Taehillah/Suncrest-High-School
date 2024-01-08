@@ -113,7 +113,7 @@ hr {
 }
 #headerLogo {
   height: 50px;
-  width: 50px;
+  width: auto;
   margin: 10px;
 }
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
